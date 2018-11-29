@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+        tools:context=".addrouteactivity">
+
+        <Button
+            android:id="@+id/addroutebutton2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/mybutton"
+            android:text="Add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cancelroutebutton"
+            app:layout_constraintTop_toBottomOf="@+id/routedest" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="69dp"
+            android:layout_marginLeft="69dp"
+            android:layout_marginRight="69dp"
+            android:layout_marginStart="69dp"
+            android:fontFamily="@font/opensansbold"
+            android:text="Add Train Route"
+            android:textAlignment="center"
+            android:textColor="#021f54"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/routesource"
+            android:layout_width="168dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="21dp"
+            android:ems="10"
+            android:hint="Source"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/routestop1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <EditText
+            android:id="@+id/routestop1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="19dp"
+            android:layout_marginEnd="82dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="82dp"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:hint="Stop 1"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/routestop3"
+            app:layout_constraintEnd_toStartOf="@+id/routestop2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/routesource" />
+
+        <EditText
+            android:id="@+id/routestop2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:ems="10"
+            android:hint="Stop 2"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="@+id/routestop1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/routestop1"
+            app:layout_constraintTop_toTopOf="@+id/routestop1" />
+
+        <EditText
+            android:id="@+id/routestop3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="22dp"
+            android:layout_marginEnd="82dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="82dp"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:hint="Stop 3"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/routestop5"
+            app:layout_constraintEnd_toStartOf="@+id/routestop4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/routestop1" />
+
+        <EditText
+            android:id="@+id/routestop4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:ems="10"
+            android:hint="Stop 4"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="@+id/routestop3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/routestop3"
+            app:layout_constraintTop_toTopOf="@+id/routestop3" />
+
+        <EditText
+            android:id="@+id/routestop5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="19dp"
+            android:layout_marginEnd="82dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="82dp"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:hint="Stop 5"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/routedest"
+            app:layout_constraintEnd_toStartOf="@+id/routetrackid"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/routestop3" />
+
+        <EditText
+            android:id="@+id/routetrackid"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:ems="10"
+            android:hint="Track ID"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="@+id/routestop5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/routestop5"
+            app:layout_constraintTop_toTopOf="@+id/routestop5" />
+
+        <EditText
+            android:id="@+id/routedest"
+            android:layout_width="168dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="22dp"
+            android:ems="10"
+            android:hint="Destination"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/addroutebutton2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/routestop5" />
+
+        <Button
+            android:id="@+id/cancelroutebutton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginEnd="128dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="128dp"
+            android:layout_marginStart="45dp"
+            android:background="@drawable/mybutton"
+            android:text="Cancel"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/addroutebutton2"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>

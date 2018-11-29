@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <android.support.constraint.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".aboutActivity">
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <TextView
+            android:id="@+id/sgnup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="144dp"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="32dp"
+            android:text="About"
+            android:textAlignment="center"
+            android:textColor="#021f54"
+            android:textSize="36sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="12dp"
+            android:text="Our purpose is to automate the existing manual railway management system by the help of computerized equipment and full-fledged computer software, fulfilling the requirements of the users so that their valuable data can be stored for a longer period with easy accessing and manipulation of the same."
+            android:textColor="#021f54"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sgnup" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="44dp"
+            android:text="Terms and Conditions"
+            android:textColor="#021f54"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="@+id/textView11"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="24dp"
+            android:text="1. Passengers are responsible for taking care of their belongings.\n
+ 2. Pakistan Railways will not bear any responsibility in case of loss of luggage.\n
+ 3. The person whom Railways has assigned ticket will only be eligible to travel on that ticket, no one else will be allowed to travel on his/her ticket.\n
+ 4. Half fare will be applied to kids between 3 to 10 years of age.\n
+ 5. It is the sole responsibility of the passenger to provide the correct information while booking a ticket online.\n
+ 6. Refund of tickets purchased online will be provided only through the Service Provider who received the payment at the time of booking. \n
+ 7.Passenger must have to show his/her CNIC at the time of refund.\n
+ 8. Passenger has to show the cancellation message/text received from Pakistan Railways to the Service Provider at the time getting refund.\n
+ 9. If ticket is cancelled before 48 hours of the departure of the train then only 10% of the paid amount will be deducted.\n
+ 10. If ticket is cancelled after 48 hours and before 24 hours of the departure of the train then only 20% of the paid amount will be deducted.\n"
+            android:textColor="#021f54"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <Button
+            android:id="@+id/abouthome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            android:text="Home"
+            android:textColor="#fff"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

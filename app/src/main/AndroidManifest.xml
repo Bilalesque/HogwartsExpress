@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bilalsalman.hogwartsexpress">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".AdminTrain" />
+        <activity
+            android:name=".NavigationAcivity"
+            android:label="@string/title_activity_navigation_acivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".welcomeAdmin" />
+        <activity
+            android:name=".navigation"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".customernavigation"
+            android:label="@string/title_activity_customernavigation"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".trainviewactivity" />
+        <activity android:name=".routeviewactivity" />
+        <activity android:name=".addtrainactivity" />
+        <activity android:name=".addrouteactivity" />
+        <activity android:name=".addemployeeactivity" />
+        <activity android:name=".employeeviewactivity" />
+        <activity android:name=".PassengerList" />
+        <activity android:name=".aboutActivity" />
+        <activity android:name=".passengerViewAll" />
+        <activity android:name=".aboutMain" />
+        <activity android:name=".aboutAdmin" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".cSettings" />
+    </application>
+
+</manifest>

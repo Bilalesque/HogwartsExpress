@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cb3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CFragment3"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_marginBottom="49dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/opensansbold"
+        android:text="Choose Payment Option"
+        android:textColor="#021f54"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/radio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radio"
+        android:layout_width="222dp"
+        android:layout_height="151dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginStart="50dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13">
+
+        <RadioButton
+            android:id="@+id/cash"
+            android:layout_width="218dp"
+            android:layout_height="48dp"
+            android:text="I'll pay cash on arrival"
+            android:textColor="#021f54"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/cc"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:text="Use my Credit Card"
+            android:textColor="#021f54"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="300dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:text="You're aware of all the Terms and Conditions and our Fair Usage Policy."
+        android:textColor="#021f54"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/agree"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radio" />
+
+    <Button
+        android:id="@+id/agree"
+        android:layout_width="170dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="79dp"
+        android:background="@drawable/mybutton"
+        android:text="I Agree"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/Done"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <Button
+        android:id="@+id/Done"
+        android:layout_width="170dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/mybutton"
+        android:text="Submit"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agree" />
+</android.support.constraint.ConstraintLayout>

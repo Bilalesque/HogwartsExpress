@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "80785196372",
+    "firebase_url": "https://hogwartsexpress-5111e.firebaseio.com",
+    "project_id": "hogwartsexpress-5111e",
+    "storage_bucket": "hogwartsexpress-5111e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80785196372:android:0e1e4bb0c50c71db",
+        "android_client_info": {
+          "package_name": "com.example.bilalsalman.hogwartsexpress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80785196372-4qpa8glrs9b5cni74c7e28nfiuitkqti.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bilalsalman.hogwartsexpress",
+            "certificate_hash": "99b13fe56ae75cb509993ff376c05ecb07b291a7"
+          }
+        },
+        {
+          "client_id": "80785196372-nln6khj1a1jujltk0e96p8o583cu3la7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bilalsalman.hogwartsexpress",
+            "certificate_hash": "90e303ba2369589cb12d10e32a774750b2c69c99"
+          }
+        },
+        {
+          "client_id": "80785196372-0cma3tn73mdsdqkfud57185iaj1h3d6t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bilalsalman.hogwartsexpress",
+            "certificate_hash": "7b23ed101c20cdcd5380da3611167f9ef1bd5350"
+          }
+        },
+        {
+          "client_id": "80785196372-guthpfjgs2nebajk2hibufgalp00tr5i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bilalsalman.hogwartsexpress",
+            "certificate_hash": "3305b9df06cf6e051eea5496b08e6b520d462cf8"
+          }
+        },
+        {
+          "client_id": "80785196372-rttdfj4bmtb2ov0vulf6tvr5c06pa3ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJSfEdLxfLUwZSwVLFqkEM9wjuzr8BaWA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80785196372-rttdfj4bmtb2ov0vulf6tvr5c06pa3ao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

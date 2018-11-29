@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewrouteNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="20px"
+        />
+
+    <TextView
+        android:id="@+id/textViewSource"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="20px"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewS1"
+        android:layout_marginLeft="20px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginBottom="4dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewS2"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20px"
+        android:layout_marginBottom="4dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewS3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginBottom="4dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewS4"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20px"
+        android:layout_marginBottom="4dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewS5"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20px"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/textViewTID"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20px"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/textViewdes"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20px"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="TextView" />
+
+</LinearLayout>
